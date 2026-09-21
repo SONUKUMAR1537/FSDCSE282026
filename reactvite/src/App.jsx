@@ -3,15 +3,15 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
+import ICard from './components/ICard'
+import ICardGallery from './components/ICardGallery'  
 
 function App() {
 
   return (
-    
-     <div style={{border:'10px solid red',height:'300px',width:'300px'}}>
-     <h2> Welcome to React vite</h2>
-     
-  </div>
+    <div>
+    <ICardGallery />
+ </div>
   )
 }
 
